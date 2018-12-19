@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhouchaohong1111@gmail.com/CXLogLib'
+  s.homepage         = 'https://github.com/zhouchaohong1111/CXLogLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhouchaohong1111@gmail.com' => 'zhouchaohong@gomo.com' }
-  s.source           = { :git => 'https://github.com/zhouchaohong1111@gmail.com/CXLogLib.git', :tag => s.version.to_s }
+  s.author           = { 'zhouchaohong1111@gmail.com' => 'zhouchaohong' }
+  s.source           = { :git => 'https://github.com/zhouchaohong1111/CXLogLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'XCGLogger', '6.0.4'
+  s.swift_version = '4.1'
 end
