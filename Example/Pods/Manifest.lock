@@ -1,0 +1,31 @@
+PODS:
+  - CXLogLib (0.1.0):
+    - XCGLogger (= 6.0.4)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - XCGLogger (6.0.4):
+    - XCGLogger/Core (= 6.0.4)
+  - XCGLogger/Core (6.0.4):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - CXLogLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ObjcExceptionBridging
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  CXLogLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CXLogLib: a28c597070461fdf8014acb7e0166480ba190b4f
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  XCGLogger: 4fc1bc0bdd5828cb8dc8da7a843536cda1bea8f3
+
+PODFILE CHECKSUM: cade031e289167fce7de5cc912010d368cf80766
+
+COCOAPODS: 1.5.3

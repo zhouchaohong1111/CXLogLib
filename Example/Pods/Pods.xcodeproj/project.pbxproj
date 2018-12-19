@@ -1,0 +1,1261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040E65E76CF5E7474F3B833D0237D08B /* DevFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E14DE76C0028B051DF06BF0CEF325 /* DevFilter.swift */; };
+		0BD61FF93D692900D17FABC06A07DAC8 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1ABC65EA4A5AB3ED06D8E072936629 /* FileDestination.swift */; };
+		0CC3847C76B323735214B36835931BF2 /* URL+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624B336896FC3B96E6B58E37595F615 /* URL+XCGAdditions.swift */; };
+		11CB42D9CCB531729897DC70108A3A73 /* Pods-CXLogLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ED1208CD03E93BEC18D9963C6080C5 /* Pods-CXLogLib_Tests-dummy.m */; };
+		139535001C95A86B99C3FA701FA20AB9 /* BaseQueuedDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D017437FB23447FE350E62BB12F0795 /* BaseQueuedDestination.swift */; };
+		13A5FE526231A46F082ED306C50ECE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94040FEACAD116514C5BB11A6FEFF0D /* Foundation.framework */; };
+		1BCBBC022E1B4DE202B99248946BB8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94040FEACAD116514C5BB11A6FEFF0D /* Foundation.framework */; };
+		1C18C3A07A96C21A9EEA0E0A884DE776 /* Pods-CXLogLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DABB89C02E21E212E3DC514F857957 /* Pods-CXLogLib_Example-dummy.m */; };
+		22A0234F90ED8E5F8DD6243B37435006 /* XCGLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4689CB7AFB9FFE8AAE25416FA642BC6 /* XCGLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297D592088D1A8F68A1CFA41530C1EC7 /* UserInfoFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B14CE665428B1A6711DF8AFC6BB6F /* UserInfoFilter.swift */; };
+		323B7C2737E2CC8CD7D584C53728D12E /* CXLogLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 275933D93AB5F76E7DC5FB87DB8F00E2 /* CXLogLib-dummy.m */; };
+		36921E295FA0A39024A8CBAAAE021BD5 /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C21A89A591AAD46F959A90FDDD6EE /* XCGLogger.swift */; };
+		369B18D7E374FE0C654E42787B1B9DAF /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F668C678E131964265CCB520C548768 /* TestDestination.swift */; };
+		433131180ECC5AB0262B9C161507AADA /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100378DC117F368C6A06DDFD91A1E3AC /* Log.swift */; };
+		47F0E42CF7319AB07135ADBEFC459C70 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DD540E6E966A28246AAE45D591BE9F /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4899AA2A4237775E36B4F8111D589936 /* LogDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C1919064AFBEA005F7AF62D6089F1 /* LogDetails.swift */; };
+		4A47E5924D3D1E9AAE8D8224313DEA66 /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B70D29469C2D96E8B5E8174222D57DF /* FilterProtocol.swift */; };
+		4ACA2C1A682A79FBCB3D936774D76BD4 /* Pods-CXLogLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E289C74681D78D58FD9A213556EB61 /* Pods-CXLogLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE59A5701DD5DA250A3FF9279D01594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94040FEACAD116514C5BB11A6FEFF0D /* Foundation.framework */; };
+		51604855239347304F47D206F70D6870 /* XcodeColorsLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1326C0BB6665C5E611CE6AE6DF0DE198 /* XcodeColorsLogFormatter.swift */; };
+		59B964EAB04E7E25BC62C26E1EAFC3C0 /* AppleSystemLogDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D428FE0327E899A393C184D37D73018 /* AppleSystemLogDestination.swift */; };
+		5B9EFF0CA868CFE06186CDE99EAE1827 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0956479B3FDFB4ED0027F65B299EE /* HelperFunctions.swift */; };
+		5E38041CC45511B9E5C8374229D02789 /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1912DE637C3855663A2D889BD0C4DA7 /* ObjcExceptionBridging.framework */; };
+		5FB9C9F52CD39CE5603E64993A3D088D /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C59685FC8164BE4BB1B68F5F8C7387 /* BaseDestination.swift */; };
+		813FE27F164C9F4AFA15F279C669F8AA /* TagFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CFF78F25E38F34138D3C4431D42E5 /* TagFilter.swift */; };
+		8266F6B70C42B6B9D408AB7F4D4D080E /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = CF4B86E64949B48DF2491EAA82C6E815 /* .swift-version */; };
+		83F54AA509CA18E0813AB73C9E390A00 /* AutoRotatingFileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EFE1802FEA3AFA7D29538F35BC994E /* AutoRotatingFileDestination.swift */; };
+		8E615605E3062832AC6A845D3747786C /* ObjcExceptionBridging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2DE8C29C4EFED4A5A33F03EB947139 /* ObjcExceptionBridging-dummy.m */; };
+		97889E1F84F61E3574CD00B50F87E108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94040FEACAD116514C5BB11A6FEFF0D /* Foundation.framework */; };
+		9E2353DCE2931F2DAA7B96AE91C74D85 /* DestinationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710CAC2CF6B06F1A43E7560EEBF81857 /* DestinationProtocol.swift */; };
+		A6CF27AD608F52B07058D3431FDFCF59 /* Base64LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F721118844FB3CFC18C375666F635A0 /* Base64LogFormatter.swift */; };
+		A8A9829ED643E3ED33F1A81FE7D89416 /* CXLogLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A6DCF1D8614355835B86541800A07C /* CXLogLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF5DF557DDC56A12EAB9A4970AC8E2F2 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D192BD1CDBB74B325C95F1CD62025A /* XCGLogger.framework */; };
+		B99855C80A761FD2E8C1B5643A477F33 /* ObjectiveCMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD69E88BAAA7B4486F361F2CE3A1041 /* ObjectiveCMarker.m */; };
+		BEDD2D37BEE51BACA30268C645D69AFF /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A659F28814D6BF98CD40B245C3693 /* ConsoleDestination.swift */; };
+		C158B45072BE19C0CE5E98CE3CE1FFAA /* DispatchQueue+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDD72D8A1965C615E2FA959B4FA285 /* DispatchQueue+XCGAdditions.swift */; };
+		CACD657BFAB13B261B13758018250D91 /* FileNameFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C225700966333F754F425467D417515 /* FileNameFilter.swift */; };
+		CC056FF428B4A95866F1F9FFCBAAAF9D /* Pods-CXLogLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9280B11E14197179B9D6C986259F743B /* Pods-CXLogLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E435F4A557D83DB6BAA1321D1082645C /* XCGLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21667D91BE25DEB8370BAACDAEADFC24 /* XCGLogger-dummy.m */; };
+		ED8A1DAF6E31BCAEFA1E2103D2D1A628 /* PrePostFixLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE529F43DB1EFD6B2E4071CCD4203F0 /* PrePostFixLogFormatter.swift */; };
+		F45F926BCCEF3480FB6B532D357FFA75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94040FEACAD116514C5BB11A6FEFF0D /* Foundation.framework */; };
+		F6754BD6F3BD4420FEC91B94F7B8212D /* ANSIColorLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20623B01CA94124E9D4C7D1BB1EF936F /* ANSIColorLogFormatter.swift */; };
+		F7CC064A238A5995F4400A81545CB87E /* LogFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E54BA9EEE6B31BB7ADB50CD3F5B58 /* LogFormatterProtocol.swift */; };
+		FF2B2A32E6AF56C745DF22EAA6DE84DA /* ObjcExceptionBridging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED09E87BD390A8F6A9029A85FE13954D /* ObjcExceptionBridging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02F171C659F561B1A22A1C19F7E910D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF57644CAD6EEA2C508AA5C35C7068E;
+			remoteInfo = ObjcExceptionBridging;
+		};
+		1A568A288EBE8E333BDC0DC6AA81070C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF57644CAD6EEA2C508AA5C35C7068E;
+			remoteInfo = ObjcExceptionBridging;
+		};
+		2541BC5E0BAE561C4C2836D24BD79548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED70825E380365D031CBA95E829ECFA;
+			remoteInfo = XCGLogger;
+		};
+		63E1C34260C09AED8B76FC587164BE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6068CC9C13971166D0D1D80E2FEB5E;
+			remoteInfo = "Pods-CXLogLib_Example";
+		};
+		AECFAF7D6DF7F50040EB9C870276D380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED70825E380365D031CBA95E829ECFA;
+			remoteInfo = XCGLogger;
+		};
+		C56BCDA4556A6D2EF5FCC8EE58E1A56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1C3D7C47D810E196985FC8FA6E4895;
+			remoteInfo = CXLogLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E289C74681D78D58FD9A213556EB61 /* Pods-CXLogLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXLogLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		03203502CA6C3F94E2B0DC4CCD3C3262 /* Pods-CXLogLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXLogLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		035C513A55CEDBDE3E00F362B6A0A192 /* Pods-CXLogLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXLogLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0F84F1BA33B563F9D67D7C6CC46D6FDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		100378DC117F368C6A06DDFD91A1E3AC /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = CXLogLib/Classes/Log.swift; sourceTree = "<group>"; };
+		118976B422F8EDD9E9544CB64AD9B594 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1326C0BB6665C5E611CE6AE6DF0DE198 /* XcodeColorsLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XcodeColorsLogFormatter.swift; path = Sources/XCGLogger/LogFormatters/XcodeColorsLogFormatter.swift; sourceTree = "<group>"; };
+		1B70D29469C2D96E8B5E8174222D57DF /* FilterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterProtocol.swift; path = Sources/XCGLogger/Filters/FilterProtocol.swift; sourceTree = "<group>"; };
+		1FAC24889CAF70DF47D21ABC156A05A1 /* Pods-CXLogLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXLogLib_Tests.modulemap"; sourceTree = "<group>"; };
+		20623B01CA94124E9D4C7D1BB1EF936F /* ANSIColorLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANSIColorLogFormatter.swift; path = Sources/XCGLogger/LogFormatters/ANSIColorLogFormatter.swift; sourceTree = "<group>"; };
+		20ED1208CD03E93BEC18D9963C6080C5 /* Pods-CXLogLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXLogLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		21667D91BE25DEB8370BAACDAEADFC24 /* XCGLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCGLogger-dummy.m"; sourceTree = "<group>"; };
+		275933D93AB5F76E7DC5FB87DB8F00E2 /* CXLogLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CXLogLib-dummy.m"; sourceTree = "<group>"; };
+		296C21A89A591AAD46F959A90FDDD6EE /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = Sources/XCGLogger/XCGLogger.swift; sourceTree = "<group>"; };
+		2C0F3A05CD82FE3378F2473BD6DDD91A /* Pods-CXLogLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXLogLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2D428FE0327E899A393C184D37D73018 /* AppleSystemLogDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleSystemLogDestination.swift; path = Sources/XCGLogger/Destinations/AppleSystemLogDestination.swift; sourceTree = "<group>"; };
+		2F668C678E131964265CCB520C548768 /* TestDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestDestination.swift; path = Sources/XCGLogger/Destinations/TestDestination.swift; sourceTree = "<group>"; };
+		2FFDD72D8A1965C615E2FA959B4FA285 /* DispatchQueue+XCGAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+XCGAdditions.swift"; path = "Sources/XCGLogger/Extensions/DispatchQueue+XCGAdditions.swift"; sourceTree = "<group>"; };
+		34DD540E6E966A28246AAE45D591BE9F /* ObjcExceptionBridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjcExceptionBridging.h; path = Sources/ObjcExceptionBridging/include/ObjcExceptionBridging.h; sourceTree = "<group>"; };
+		3610094B907E4DF90450CD962E03B0CF /* Pods-CXLogLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXLogLib_Example.modulemap"; sourceTree = "<group>"; };
+		389723C38B1827EBBC6ED525D0F6421C /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCGLogger.framework; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5E1089B930EA2352081A37593A2C11 /* Pods-CXLogLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXLogLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		3F85BFC1EE69F9EA88AF0D1164AAE715 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447898272AB7EF8FC6697884E006594C /* Pods-CXLogLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXLogLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44A19CFEE3CBF546114354CD28A5BA5D /* CXLogLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CXLogLib.framework; path = CXLogLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD69E88BAAA7B4486F361F2CE3A1041 /* ObjectiveCMarker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ObjectiveCMarker.m; path = Sources/ObjcExceptionBridging/ObjectiveCMarker.m; sourceTree = "<group>"; };
+		4B4FCD4040E2476774190F1F5D2EF09F /* Pods-CXLogLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXLogLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		500A5D6029E5E5007CC6EB93159BD011 /* XCGLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCGLogger.xcconfig; sourceTree = "<group>"; };
+		50255CFB4591CA8FDC93D66C9B4BAD3F /* CXLogLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CXLogLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		52035D5DB7755CD89E1264069E550CE9 /* CXLogLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXLogLib-prefix.pch"; sourceTree = "<group>"; };
+		552C1919064AFBEA005F7AF62D6089F1 /* LogDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogDetails.swift; path = Sources/XCGLogger/Misc/LogDetails.swift; sourceTree = "<group>"; };
+		59DD68FE7475E9F5F7E5B632C50675C8 /* Pods_CXLogLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CXLogLib_Example.framework; path = "Pods-CXLogLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62A0C4E3970FA56ACC0146944838CC /* Pods-CXLogLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXLogLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EDD328BA051FC30F1FC79C2CCEA85B4 /* CXLogLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXLogLib.xcconfig; sourceTree = "<group>"; };
+		5F3A659F28814D6BF98CD40B245C3693 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/XCGLogger/Destinations/ConsoleDestination.swift; sourceTree = "<group>"; };
+		5F9CFF78F25E38F34138D3C4431D42E5 /* TagFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagFilter.swift; path = Sources/XCGLogger/Filters/TagFilter.swift; sourceTree = "<group>"; };
+		6DB0E6E5D86D8C3D665A2F6A3C7CE3A7 /* Pods_CXLogLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CXLogLib_Tests.framework; path = "Pods-CXLogLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710CAC2CF6B06F1A43E7560EEBF81857 /* DestinationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DestinationProtocol.swift; path = Sources/XCGLogger/Destinations/DestinationProtocol.swift; sourceTree = "<group>"; };
+		715C5AF8411E25EA1288B40BDBF8C3AB /* Pods-CXLogLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXLogLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		728A14F64AF87B87FCA3E76349427650 /* Pods-CXLogLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXLogLib_Example-resources.sh"; sourceTree = "<group>"; };
+		72DABB89C02E21E212E3DC514F857957 /* Pods-CXLogLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXLogLib_Example-dummy.m"; sourceTree = "<group>"; };
+		73C59685FC8164BE4BB1B68F5F8C7387 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/XCGLogger/Destinations/BaseDestination.swift; sourceTree = "<group>"; };
+		7624B336896FC3B96E6B58E37595F615 /* URL+XCGAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+XCGAdditions.swift"; path = "Sources/XCGLogger/Extensions/URL+XCGAdditions.swift"; sourceTree = "<group>"; };
+		7E1496CFC82934E4420DBEB35EFE8840 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		808A977D309F0519375495F75FA4425C /* Pods-CXLogLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXLogLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83100651BFE0AF7486D3CB68D02CA85D /* XCGLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCGLogger-prefix.pch"; sourceTree = "<group>"; };
+		8B1ABC65EA4A5AB3ED06D8E072936629 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/XCGLogger/Destinations/FileDestination.swift; sourceTree = "<group>"; };
+		8C225700966333F754F425467D417515 /* FileNameFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileNameFilter.swift; path = Sources/XCGLogger/Filters/FileNameFilter.swift; sourceTree = "<group>"; };
+		8D017437FB23447FE350E62BB12F0795 /* BaseQueuedDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseQueuedDestination.swift; path = Sources/XCGLogger/Destinations/BaseQueuedDestination.swift; sourceTree = "<group>"; };
+		8F2DE8C29C4EFED4A5A33F03EB947139 /* ObjcExceptionBridging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjcExceptionBridging-dummy.m"; sourceTree = "<group>"; };
+		8F721118844FB3CFC18C375666F635A0 /* Base64LogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64LogFormatter.swift; path = Sources/XCGLogger/LogFormatters/Base64LogFormatter.swift; sourceTree = "<group>"; };
+		9097C13FD4ABF61160C7421CFE61B58F /* CXLogLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CXLogLib.modulemap; sourceTree = "<group>"; };
+		9280B11E14197179B9D6C986259F743B /* Pods-CXLogLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXLogLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BD7B0897C9DE2EB594F52FED881559 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F87A891E60E075E5774E6959CA4F23D /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjcExceptionBridging.framework; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F918947FDD00E4888497C58B3FB48CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D192BD1CDBB74B325C95F1CD62025A /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3F614BAC138B97FD5054038F5D98D0 /* XCGLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCGLogger.modulemap; sourceTree = "<group>"; };
+		B07E54BA9EEE6B31BB7ADB50CD3F5B58 /* LogFormatterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogFormatterProtocol.swift; path = Sources/XCGLogger/LogFormatters/LogFormatterProtocol.swift; sourceTree = "<group>"; };
+		B1912DE637C3855663A2D889BD0C4DA7 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE8FE8D438F0C60C00CC21834D07182 /* Pods-CXLogLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXLogLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFE529F43DB1EFD6B2E4071CCD4203F0 /* PrePostFixLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrePostFixLogFormatter.swift; path = Sources/XCGLogger/LogFormatters/PrePostFixLogFormatter.swift; sourceTree = "<group>"; };
+		CC00D8501B0162A4DBB4948104B1791E /* ObjcExceptionBridging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjcExceptionBridging.modulemap; sourceTree = "<group>"; };
+		CF4B86E64949B48DF2491EAA82C6E815 /* .swift-version */ = {isa = PBXFileReference; includeInIndex = 1; path = ".swift-version"; sourceTree = "<group>"; };
+		D1A6DCF1D8614355835B86541800A07C /* CXLogLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXLogLib-umbrella.h"; sourceTree = "<group>"; };
+		D55072CA4CD34A4586DF3463F0F3D439 /* ObjcExceptionBridging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcExceptionBridging-prefix.pch"; sourceTree = "<group>"; };
+		D96B14CE665428B1A6711DF8AFC6BB6F /* UserInfoFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInfoFilter.swift; path = Sources/XCGLogger/Filters/UserInfoFilter.swift; sourceTree = "<group>"; };
+		DB2E6C5218403FEBDB612B1A2F905753 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E72D0B944B3EECF93D86D56F0F8462 /* ObjcExceptionBridging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjcExceptionBridging.xcconfig; sourceTree = "<group>"; };
+		E52E14DE76C0028B051DF06BF0CEF325 /* DevFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevFilter.swift; path = Sources/XCGLogger/Filters/DevFilter.swift; sourceTree = "<group>"; };
+		E6F0956479B3FDFB4ED0027F65B299EE /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = Sources/XCGLogger/Misc/HelperFunctions.swift; sourceTree = "<group>"; };
+		E94040FEACAD116514C5BB11A6FEFF0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED09E87BD390A8F6A9029A85FE13954D /* ObjcExceptionBridging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcExceptionBridging-umbrella.h"; sourceTree = "<group>"; };
+		F4689CB7AFB9FFE8AAE25416FA642BC6 /* XCGLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCGLogger-umbrella.h"; sourceTree = "<group>"; };
+		F6EFE1802FEA3AFA7D29538F35BC994E /* AutoRotatingFileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoRotatingFileDestination.swift; path = Sources/XCGLogger/Destinations/AutoRotatingFileDestination.swift; sourceTree = "<group>"; };
+		FB1F5E9C364D39637D0C052CE4291898 /* Pods-CXLogLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXLogLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D55F9B8781C785F1860D28DF496BBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97889E1F84F61E3574CD00B50F87E108 /* Foundation.framework in Frameworks */,
+				5E38041CC45511B9E5C8374229D02789 /* ObjcExceptionBridging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC80AE071F1716F2B3B6A27B62E881F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE59A5701DD5DA250A3FF9279D01594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8F0C43C5703F6BF8E515738A5866C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCBBC022E1B4DE202B99248946BB8B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BD722F977E54A4C78BB77D176C89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A5FE526231A46F082ED306C50ECE90 /* Foundation.framework in Frameworks */,
+				AF5DF557DDC56A12EAB9A4970AC8E2F2 /* XCGLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57A1E1E82DF7FDE349C1D5731C665B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45F926BCCEF3480FB6B532D357FFA75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0861ED165A02FDBAB6E66DF7F44E26C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9097C13FD4ABF61160C7421CFE61B58F /* CXLogLib.modulemap */,
+				5EDD328BA051FC30F1FC79C2CCEA85B4 /* CXLogLib.xcconfig */,
+				275933D93AB5F76E7DC5FB87DB8F00E2 /* CXLogLib-dummy.m */,
+				52035D5DB7755CD89E1264069E550CE9 /* CXLogLib-prefix.pch */,
+				D1A6DCF1D8614355835B86541800A07C /* CXLogLib-umbrella.h */,
+				118976B422F8EDD9E9544CB64AD9B594 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CXLogLib";
+			sourceTree = "<group>";
+		};
+		12FC233767D148241F5A28757CCD5E4C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F85BFC1EE69F9EA88AF0D1164AAE715 /* Info.plist */,
+				CC00D8501B0162A4DBB4948104B1791E /* ObjcExceptionBridging.modulemap */,
+				E0E72D0B944B3EECF93D86D56F0F8462 /* ObjcExceptionBridging.xcconfig */,
+				8F2DE8C29C4EFED4A5A33F03EB947139 /* ObjcExceptionBridging-dummy.m */,
+				D55072CA4CD34A4586DF3463F0F3D439 /* ObjcExceptionBridging-prefix.pch */,
+				ED09E87BD390A8F6A9029A85FE13954D /* ObjcExceptionBridging-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ObjcExceptionBridging";
+			sourceTree = "<group>";
+		};
+		3DDDF6EA4055F08C3C68B8C2356DAD9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97BD7B0897C9DE2EB594F52FED881559 /* Info.plist */,
+				AB3F614BAC138B97FD5054038F5D98D0 /* XCGLogger.modulemap */,
+				500A5D6029E5E5007CC6EB93159BD011 /* XCGLogger.xcconfig */,
+				21667D91BE25DEB8370BAACDAEADFC24 /* XCGLogger-dummy.m */,
+				83100651BFE0AF7486D3CB68D02CA85D /* XCGLogger-prefix.pch */,
+				F4689CB7AFB9FFE8AAE25416FA642BC6 /* XCGLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XCGLogger";
+			sourceTree = "<group>";
+		};
+		4E6BCCD10B55B32587D9396DBD2A1564 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				706965ABCE702C6036E3D254A16D011B /* CXLogLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5641BE940E549F913678043D65781824 /* ObjcExceptionBridging */ = {
+			isa = PBXGroup;
+			children = (
+				34DD540E6E966A28246AAE45D591BE9F /* ObjcExceptionBridging.h */,
+				4AD69E88BAAA7B4486F361F2CE3A1041 /* ObjectiveCMarker.m */,
+			);
+			name = ObjcExceptionBridging;
+			sourceTree = "<group>";
+		};
+		5A0A060AC2343D15DB7AA11C6B2EDC82 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				20623B01CA94124E9D4C7D1BB1EF936F /* ANSIColorLogFormatter.swift */,
+				2D428FE0327E899A393C184D37D73018 /* AppleSystemLogDestination.swift */,
+				F6EFE1802FEA3AFA7D29538F35BC994E /* AutoRotatingFileDestination.swift */,
+				8F721118844FB3CFC18C375666F635A0 /* Base64LogFormatter.swift */,
+				73C59685FC8164BE4BB1B68F5F8C7387 /* BaseDestination.swift */,
+				8D017437FB23447FE350E62BB12F0795 /* BaseQueuedDestination.swift */,
+				5F3A659F28814D6BF98CD40B245C3693 /* ConsoleDestination.swift */,
+				710CAC2CF6B06F1A43E7560EEBF81857 /* DestinationProtocol.swift */,
+				E52E14DE76C0028B051DF06BF0CEF325 /* DevFilter.swift */,
+				2FFDD72D8A1965C615E2FA959B4FA285 /* DispatchQueue+XCGAdditions.swift */,
+				8B1ABC65EA4A5AB3ED06D8E072936629 /* FileDestination.swift */,
+				8C225700966333F754F425467D417515 /* FileNameFilter.swift */,
+				1B70D29469C2D96E8B5E8174222D57DF /* FilterProtocol.swift */,
+				E6F0956479B3FDFB4ED0027F65B299EE /* HelperFunctions.swift */,
+				552C1919064AFBEA005F7AF62D6089F1 /* LogDetails.swift */,
+				B07E54BA9EEE6B31BB7ADB50CD3F5B58 /* LogFormatterProtocol.swift */,
+				BFE529F43DB1EFD6B2E4071CCD4203F0 /* PrePostFixLogFormatter.swift */,
+				5F9CFF78F25E38F34138D3C4431D42E5 /* TagFilter.swift */,
+				2F668C678E131964265CCB520C548768 /* TestDestination.swift */,
+				7624B336896FC3B96E6B58E37595F615 /* URL+XCGAdditions.swift */,
+				D96B14CE665428B1A6711DF8AFC6BB6F /* UserInfoFilter.swift */,
+				296C21A89A591AAD46F959A90FDDD6EE /* XCGLogger.swift */,
+				1326C0BB6665C5E611CE6AE6DF0DE198 /* XcodeColorsLogFormatter.swift */,
+				77FB73F6FE8359247B3B15E978D7E3D1 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		63D7DF1EED3B1BAC0EE999BFDC55AC56 /* ObjcExceptionBridging */ = {
+			isa = PBXGroup;
+			children = (
+				5641BE940E549F913678043D65781824 /* ObjcExceptionBridging */,
+				12FC233767D148241F5A28757CCD5E4C /* Support Files */,
+			);
+			name = ObjcExceptionBridging;
+			path = ObjcExceptionBridging;
+			sourceTree = "<group>";
+		};
+		63DC6C46EAE5B295B5F35BEAC80D9456 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E94040FEACAD116514C5BB11A6FEFF0D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D76790881BCFF4FF5F37AA11FDBB69A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				50255CFB4591CA8FDC93D66C9B4BAD3F /* CXLogLib.podspec */,
+				0F84F1BA33B563F9D67D7C6CC46D6FDD /* LICENSE */,
+				7E1496CFC82934E4420DBEB35EFE8840 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		706965ABCE702C6036E3D254A16D011B /* CXLogLib */ = {
+			isa = PBXGroup;
+			children = (
+				100378DC117F368C6A06DDFD91A1E3AC /* Log.swift */,
+				6D76790881BCFF4FF5F37AA11FDBB69A /* Pod */,
+				0861ED165A02FDBAB6E66DF7F44E26C7 /* Support Files */,
+			);
+			name = CXLogLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		77FB73F6FE8359247B3B15E978D7E3D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF4B86E64949B48DF2491EAA82C6E815 /* .swift-version */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7BAF173A8F685B2D2757B2BFDF4A88C5 /* Pods-CXLogLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9F918947FDD00E4888497C58B3FB48CB /* Info.plist */,
+				3610094B907E4DF90450CD962E03B0CF /* Pods-CXLogLib_Example.modulemap */,
+				808A977D309F0519375495F75FA4425C /* Pods-CXLogLib_Example-acknowledgements.markdown */,
+				5C62A0C4E3970FA56ACC0146944838CC /* Pods-CXLogLib_Example-acknowledgements.plist */,
+				72DABB89C02E21E212E3DC514F857957 /* Pods-CXLogLib_Example-dummy.m */,
+				FB1F5E9C364D39637D0C052CE4291898 /* Pods-CXLogLib_Example-frameworks.sh */,
+				728A14F64AF87B87FCA3E76349427650 /* Pods-CXLogLib_Example-resources.sh */,
+				01E289C74681D78D58FD9A213556EB61 /* Pods-CXLogLib_Example-umbrella.h */,
+				03203502CA6C3F94E2B0DC4CCD3C3262 /* Pods-CXLogLib_Example.debug.xcconfig */,
+				2C0F3A05CD82FE3378F2473BD6DDD91A /* Pods-CXLogLib_Example.release.xcconfig */,
+			);
+			name = "Pods-CXLogLib_Example";
+			path = "Target Support Files/Pods-CXLogLib_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4E6BCCD10B55B32587D9396DBD2A1564 /* Development Pods */,
+				8A49F3A900FB9367D5AB260CFAEBB44D /* Frameworks */,
+				DE93EC5A7F4521EC151D809005177584 /* Pods */,
+				C3A9D4244F6F7719D02C03BD2DEC69AB /* Products */,
+				CD4A45CFDA5EF6CAA5F12DAABDF61BBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A49F3A900FB9367D5AB260CFAEBB44D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1912DE637C3855663A2D889BD0C4DA7 /* ObjcExceptionBridging.framework */,
+				A9D192BD1CDBB74B325C95F1CD62025A /* XCGLogger.framework */,
+				63DC6C46EAE5B295B5F35BEAC80D9456 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98266BBA3DC9545CA4CDD231605A5907 /* XCGLogger */ = {
+			isa = PBXGroup;
+			children = (
+				5A0A060AC2343D15DB7AA11C6B2EDC82 /* Core */,
+				3DDDF6EA4055F08C3C68B8C2356DAD9F /* Support Files */,
+			);
+			name = XCGLogger;
+			path = XCGLogger;
+			sourceTree = "<group>";
+		};
+		C2BCA5FC957F7EFEF5EE573BF4524B6F /* Pods-CXLogLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E6C5218403FEBDB612B1A2F905753 /* Info.plist */,
+				1FAC24889CAF70DF47D21ABC156A05A1 /* Pods-CXLogLib_Tests.modulemap */,
+				BEE8FE8D438F0C60C00CC21834D07182 /* Pods-CXLogLib_Tests-acknowledgements.markdown */,
+				715C5AF8411E25EA1288B40BDBF8C3AB /* Pods-CXLogLib_Tests-acknowledgements.plist */,
+				20ED1208CD03E93BEC18D9963C6080C5 /* Pods-CXLogLib_Tests-dummy.m */,
+				035C513A55CEDBDE3E00F362B6A0A192 /* Pods-CXLogLib_Tests-frameworks.sh */,
+				3A5E1089B930EA2352081A37593A2C11 /* Pods-CXLogLib_Tests-resources.sh */,
+				9280B11E14197179B9D6C986259F743B /* Pods-CXLogLib_Tests-umbrella.h */,
+				447898272AB7EF8FC6697884E006594C /* Pods-CXLogLib_Tests.debug.xcconfig */,
+				4B4FCD4040E2476774190F1F5D2EF09F /* Pods-CXLogLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-CXLogLib_Tests";
+			path = "Target Support Files/Pods-CXLogLib_Tests";
+			sourceTree = "<group>";
+		};
+		C3A9D4244F6F7719D02C03BD2DEC69AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A19CFEE3CBF546114354CD28A5BA5D /* CXLogLib.framework */,
+				9F87A891E60E075E5774E6959CA4F23D /* ObjcExceptionBridging.framework */,
+				59DD68FE7475E9F5F7E5B632C50675C8 /* Pods_CXLogLib_Example.framework */,
+				6DB0E6E5D86D8C3D665A2F6A3C7CE3A7 /* Pods_CXLogLib_Tests.framework */,
+				389723C38B1827EBBC6ED525D0F6421C /* XCGLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4A45CFDA5EF6CAA5F12DAABDF61BBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BAF173A8F685B2D2757B2BFDF4A88C5 /* Pods-CXLogLib_Example */,
+				C2BCA5FC957F7EFEF5EE573BF4524B6F /* Pods-CXLogLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DE93EC5A7F4521EC151D809005177584 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63D7DF1EED3B1BAC0EE999BFDC55AC56 /* ObjcExceptionBridging */,
+				98266BBA3DC9545CA4CDD231605A5907 /* XCGLogger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38C4AD6E97A62D444457ED1A7F84675B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC056FF428B4A95866F1F9FFCBAAAF9D /* Pods-CXLogLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81365415AC3313D6A03D58530D9E5813 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A0234F90ED8E5F8DD6243B37435006 /* XCGLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928F0FB67311967CE2FE4A7F5AFF46DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACA2C1A682A79FBCB3D936774D76BD4 /* Pods-CXLogLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4B51466D5C82417E635C0A3865AA9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A9829ED643E3ED33F1A81FE7D89416 /* CXLogLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC7638F7B4C708AA1ECF8171F3A997F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2B2A32E6AF56C745DF22EAA6DE84DA /* ObjcExceptionBridging-umbrella.h in Headers */,
+				47F0E42CF7319AB07135ADBEFC459C70 /* ObjcExceptionBridging.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		078893355B3EE62FFAB55C18E72D9B17 /* Pods-CXLogLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD5035AF41B5FD9A7AF26251E9DB7FE /* Build configuration list for PBXNativeTarget "Pods-CXLogLib_Tests" */;
+			buildPhases = (
+				1968A4B8A7DBF512B6293A9FAA13C318 /* Sources */,
+				C57A1E1E82DF7FDE349C1D5731C665B3 /* Frameworks */,
+				38C4AD6E97A62D444457ED1A7F84675B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02A74E18D33BD2927438220E7842DC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CXLogLib_Tests";
+			productName = "Pods-CXLogLib_Tests";
+			productReference = 6DB0E6E5D86D8C3D665A2F6A3C7CE3A7 /* Pods_CXLogLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E1C3D7C47D810E196985FC8FA6E4895 /* CXLogLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732F8D7376CC20F0400AEFB7C4987C2B /* Build configuration list for PBXNativeTarget "CXLogLib" */;
+			buildPhases = (
+				207455E9869C723EFA368D8147EDD1BC /* Sources */,
+				A76BD722F977E54A4C78BB77D176C89B /* Frameworks */,
+				BB4B51466D5C82417E635C0A3865AA9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CD16DA5549437650780E4FA2AE1492 /* PBXTargetDependency */,
+			);
+			name = CXLogLib;
+			productName = CXLogLib;
+			productReference = 44A19CFEE3CBF546114354CD28A5BA5D /* CXLogLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED6068CC9C13971166D0D1D80E2FEB5E /* Pods-CXLogLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7960977CB6313ED9832A95AC015C4A09 /* Build configuration list for PBXNativeTarget "Pods-CXLogLib_Example" */;
+			buildPhases = (
+				8A337F0D53BE7B6A544E63A449A5AFF6 /* Sources */,
+				5EC80AE071F1716F2B3B6A27B62E881F /* Frameworks */,
+				928F0FB67311967CE2FE4A7F5AFF46DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E0DD2DF38C48D00032EF953C605F922 /* PBXTargetDependency */,
+				98F7C09EC77EE144F8AB81EAAE6EE416 /* PBXTargetDependency */,
+				B03E5CECC404642B63BFA8600599D24A /* PBXTargetDependency */,
+			);
+			name = "Pods-CXLogLib_Example";
+			productName = "Pods-CXLogLib_Example";
+			productReference = 59DD68FE7475E9F5F7E5B632C50675C8 /* Pods_CXLogLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCF57644CAD6EEA2C508AA5C35C7068E /* ObjcExceptionBridging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A466A36FCEA10E6B84AE4665D576564 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging" */;
+			buildPhases = (
+				6760437D0D87FF1E087FB1D7B6A3FBA0 /* Sources */,
+				9C8F0C43C5703F6BF8E515738A5866C7 /* Frameworks */,
+				DDC7638F7B4C708AA1ECF8171F3A997F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjcExceptionBridging;
+			productName = ObjcExceptionBridging;
+			productReference = 9F87A891E60E075E5774E6959CA4F23D /* ObjcExceptionBridging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FED70825E380365D031CBA95E829ECFA /* XCGLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BCC23E2D4615A03B5E2E631DFE901C /* Build configuration list for PBXNativeTarget "XCGLogger" */;
+			buildPhases = (
+				086B6C89CBCD718349F4C548AD71A1FB /* Sources */,
+				3D55F9B8781C785F1860D28DF496BBC8 /* Frameworks */,
+				DE6197386EA73F3A3FB57627C64BB39C /* Resources */,
+				81365415AC3313D6A03D58530D9E5813 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960FD5B1DFFB9DB5EBD8A632ED0673F9 /* PBXTargetDependency */,
+			);
+			name = XCGLogger;
+			productName = XCGLogger;
+			productReference = 389723C38B1827EBBC6ED525D0F6421C /* XCGLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C3A9D4244F6F7719D02C03BD2DEC69AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E1C3D7C47D810E196985FC8FA6E4895 /* CXLogLib */,
+				FCF57644CAD6EEA2C508AA5C35C7068E /* ObjcExceptionBridging */,
+				ED6068CC9C13971166D0D1D80E2FEB5E /* Pods-CXLogLib_Example */,
+				078893355B3EE62FFAB55C18E72D9B17 /* Pods-CXLogLib_Tests */,
+				FED70825E380365D031CBA95E829ECFA /* XCGLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6197386EA73F3A3FB57627C64BB39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8266F6B70C42B6B9D408AB7F4D4D080E /* .swift-version in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086B6C89CBCD718349F4C548AD71A1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6754BD6F3BD4420FEC91B94F7B8212D /* ANSIColorLogFormatter.swift in Sources */,
+				59B964EAB04E7E25BC62C26E1EAFC3C0 /* AppleSystemLogDestination.swift in Sources */,
+				83F54AA509CA18E0813AB73C9E390A00 /* AutoRotatingFileDestination.swift in Sources */,
+				A6CF27AD608F52B07058D3431FDFCF59 /* Base64LogFormatter.swift in Sources */,
+				5FB9C9F52CD39CE5603E64993A3D088D /* BaseDestination.swift in Sources */,
+				139535001C95A86B99C3FA701FA20AB9 /* BaseQueuedDestination.swift in Sources */,
+				BEDD2D37BEE51BACA30268C645D69AFF /* ConsoleDestination.swift in Sources */,
+				9E2353DCE2931F2DAA7B96AE91C74D85 /* DestinationProtocol.swift in Sources */,
+				040E65E76CF5E7474F3B833D0237D08B /* DevFilter.swift in Sources */,
+				C158B45072BE19C0CE5E98CE3CE1FFAA /* DispatchQueue+XCGAdditions.swift in Sources */,
+				0BD61FF93D692900D17FABC06A07DAC8 /* FileDestination.swift in Sources */,
+				CACD657BFAB13B261B13758018250D91 /* FileNameFilter.swift in Sources */,
+				4A47E5924D3D1E9AAE8D8224313DEA66 /* FilterProtocol.swift in Sources */,
+				5B9EFF0CA868CFE06186CDE99EAE1827 /* HelperFunctions.swift in Sources */,
+				4899AA2A4237775E36B4F8111D589936 /* LogDetails.swift in Sources */,
+				F7CC064A238A5995F4400A81545CB87E /* LogFormatterProtocol.swift in Sources */,
+				ED8A1DAF6E31BCAEFA1E2103D2D1A628 /* PrePostFixLogFormatter.swift in Sources */,
+				813FE27F164C9F4AFA15F279C669F8AA /* TagFilter.swift in Sources */,
+				369B18D7E374FE0C654E42787B1B9DAF /* TestDestination.swift in Sources */,
+				0CC3847C76B323735214B36835931BF2 /* URL+XCGAdditions.swift in Sources */,
+				297D592088D1A8F68A1CFA41530C1EC7 /* UserInfoFilter.swift in Sources */,
+				E435F4A557D83DB6BAA1321D1082645C /* XCGLogger-dummy.m in Sources */,
+				36921E295FA0A39024A8CBAAAE021BD5 /* XCGLogger.swift in Sources */,
+				51604855239347304F47D206F70D6870 /* XcodeColorsLogFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1968A4B8A7DBF512B6293A9FAA13C318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CB42D9CCB531729897DC70108A3A73 /* Pods-CXLogLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207455E9869C723EFA368D8147EDD1BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323B7C2737E2CC8CD7D584C53728D12E /* CXLogLib-dummy.m in Sources */,
+				433131180ECC5AB0262B9C161507AADA /* Log.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6760437D0D87FF1E087FB1D7B6A3FBA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E615605E3062832AC6A845D3747786C /* ObjcExceptionBridging-dummy.m in Sources */,
+				B99855C80A761FD2E8C1B5643A477F33 /* ObjectiveCMarker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A337F0D53BE7B6A544E63A449A5AFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C18C3A07A96C21A9EEA0E0A884DE776 /* Pods-CXLogLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07CD16DA5549437650780E4FA2AE1492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCGLogger;
+			target = FED70825E380365D031CBA95E829ECFA /* XCGLogger */;
+			targetProxy = AECFAF7D6DF7F50040EB9C870276D380 /* PBXContainerItemProxy */;
+		};
+		960FD5B1DFFB9DB5EBD8A632ED0673F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjcExceptionBridging;
+			target = FCF57644CAD6EEA2C508AA5C35C7068E /* ObjcExceptionBridging */;
+			targetProxy = 02F171C659F561B1A22A1C19F7E910D4 /* PBXContainerItemProxy */;
+		};
+		98F7C09EC77EE144F8AB81EAAE6EE416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjcExceptionBridging;
+			target = FCF57644CAD6EEA2C508AA5C35C7068E /* ObjcExceptionBridging */;
+			targetProxy = 1A568A288EBE8E333BDC0DC6AA81070C /* PBXContainerItemProxy */;
+		};
+		9E0DD2DF38C48D00032EF953C605F922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CXLogLib;
+			target = 5E1C3D7C47D810E196985FC8FA6E4895 /* CXLogLib */;
+			targetProxy = C56BCDA4556A6D2EF5FCC8EE58E1A56C /* PBXContainerItemProxy */;
+		};
+		B02A74E18D33BD2927438220E7842DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CXLogLib_Example";
+			target = ED6068CC9C13971166D0D1D80E2FEB5E /* Pods-CXLogLib_Example */;
+			targetProxy = 63E1C34260C09AED8B76FC587164BE73 /* PBXContainerItemProxy */;
+		};
+		B03E5CECC404642B63BFA8600599D24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCGLogger;
+			target = FED70825E380365D031CBA95E829ECFA /* XCGLogger */;
+			targetProxy = 2541BC5E0BAE561C4C2836D24BD79548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2581BED8E48DC0F1F7260A93D38DC9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4FCD4040E2476774190F1F5D2EF09F /* Pods-CXLogLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXLogLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXLogLib_Tests/Pods-CXLogLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D253C5F122284CBB42EA561BD7AC3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447898272AB7EF8FC6697884E006594C /* Pods-CXLogLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXLogLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXLogLib_Tests/Pods-CXLogLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A120FE94FEE88BAE9617316654767E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E72D0B944B3EECF93D86D56F0F8462 /* ObjcExceptionBridging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjcExceptionBridging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging.modulemap";
+				PRODUCT_MODULE_NAME = ObjcExceptionBridging;
+				PRODUCT_NAME = ObjcExceptionBridging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		452D11916CDBB375B01C03738A2BC5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0F3A05CD82FE3378F2473BD6DDD91A /* Pods-CXLogLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXLogLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXLogLib_Example/Pods-CXLogLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F4609257EA5E42155C384FF6F90E1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500A5D6029E5E5007CC6EB93159BD011 /* XCGLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCGLogger/XCGLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCGLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCGLogger/XCGLogger.modulemap";
+				PRODUCT_MODULE_NAME = XCGLogger;
+				PRODUCT_NAME = XCGLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52A6CF5B6FA766B02DDE0D0657DF2A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03203502CA6C3F94E2B0DC4CCD3C3262 /* Pods-CXLogLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CXLogLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CXLogLib_Example/Pods-CXLogLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		94CB7C77AB69CAC1196C9C866C36F8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDD328BA051FC30F1FC79C2CCEA85B4 /* CXLogLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CXLogLib/CXLogLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CXLogLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CXLogLib/CXLogLib.modulemap";
+				PRODUCT_MODULE_NAME = CXLogLib;
+				PRODUCT_NAME = CXLogLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E0B8271F1EE9216804E7A75B61557932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDD328BA051FC30F1FC79C2CCEA85B4 /* CXLogLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CXLogLib/CXLogLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CXLogLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CXLogLib/CXLogLib.modulemap";
+				PRODUCT_MODULE_NAME = CXLogLib;
+				PRODUCT_NAME = CXLogLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9A45DCB3AF61A46830481E1232BE34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E72D0B944B3EECF93D86D56F0F8462 /* ObjcExceptionBridging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjcExceptionBridging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging.modulemap";
+				PRODUCT_MODULE_NAME = ObjcExceptionBridging;
+				PRODUCT_NAME = ObjcExceptionBridging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA8B4F5C9CD05400ED8C44AE9200D149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500A5D6029E5E5007CC6EB93159BD011 /* XCGLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCGLogger/XCGLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCGLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCGLogger/XCGLogger.modulemap";
+				PRODUCT_MODULE_NAME = XCGLogger;
+				PRODUCT_NAME = XCGLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A466A36FCEA10E6B84AE4665D576564 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A45DCB3AF61A46830481E1232BE34C /* Debug */,
+				3A120FE94FEE88BAE9617316654767E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732F8D7376CC20F0400AEFB7C4987C2B /* Build configuration list for PBXNativeTarget "CXLogLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B8271F1EE9216804E7A75B61557932 /* Debug */,
+				94CB7C77AB69CAC1196C9C866C36F8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7960977CB6313ED9832A95AC015C4A09 /* Build configuration list for PBXNativeTarget "Pods-CXLogLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A6CF5B6FA766B02DDE0D0657DF2A77 /* Debug */,
+				452D11916CDBB375B01C03738A2BC5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD5035AF41B5FD9A7AF26251E9DB7FE /* Build configuration list for PBXNativeTarget "Pods-CXLogLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D253C5F122284CBB42EA561BD7AC3E7 /* Debug */,
+				2581BED8E48DC0F1F7260A93D38DC9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BCC23E2D4615A03B5E2E631DFE901C /* Build configuration list for PBXNativeTarget "XCGLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8B4F5C9CD05400ED8C44AE9200D149 /* Debug */,
+				4F4609257EA5E42155C384FF6F90E1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

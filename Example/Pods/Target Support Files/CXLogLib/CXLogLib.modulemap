@@ -1,0 +1,6 @@
+framework module CXLogLib {
+  umbrella header "CXLogLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

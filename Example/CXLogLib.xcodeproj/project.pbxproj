@@ -41,10 +41,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		69FD1641AE2F1C782537ACB1 /* Pods_CXLogLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXLogLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CCD4A25D571A7DE939EFAD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6CCD4A25D571A7DE939EFAD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6F19EFE8827D4DAA02078505 /* Pods-CXLogLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXLogLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CXLogLib_Example/Pods-CXLogLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7E99299A7C44926B90BDE687 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8BEF15D5D931357759FE4D03 /* CXLogLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CXLogLib.podspec; path = ../CXLogLib.podspec; sourceTree = "<group>"; };
+		7E99299A7C44926B90BDE687 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8BEF15D5D931357759FE4D03 /* CXLogLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXLogLib.podspec; path = ../CXLogLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		952D31BC9D7C8E20023EF0BA /* Pods-CXLogLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXLogLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXLogLib_Tests/Pods-CXLogLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4D38D6CA589231D6EC4E44E /* Pods_CXLogLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXLogLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SRKDUXD4M3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -269,10 +270,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CXLogLib_Example/Pods-CXLogLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CXLogLib/CXLogLib.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CXLogLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -469,6 +474,7 @@
 			baseConfigurationReference = 40AC3BCB7307A7D6B07A4A83 /* Pods-CXLogLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SRKDUXD4M3;
 				INFOPLIST_FILE = CXLogLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +490,7 @@
 			baseConfigurationReference = 6F19EFE8827D4DAA02078505 /* Pods-CXLogLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SRKDUXD4M3;
 				INFOPLIST_FILE = CXLogLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

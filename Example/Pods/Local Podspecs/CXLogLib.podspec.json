@@ -1,0 +1,27 @@
+{
+  "name": "CXLogLib",
+  "version": "0.1.0",
+  "summary": "A short description of CXLogLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhouchaohong1111@gmail.com/CXLogLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhouchaohong1111@gmail.com": "zhouchaohong@gomo.com"
+  },
+  "source": {
+    "git": "https://github.com/zhouchaohong1111@gmail.com/CXLogLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CXLogLib/Classes/**/*",
+  "dependencies": {
+    "XCGLogger": [
+      "6.0.4"
+    ]
+  }
+}
