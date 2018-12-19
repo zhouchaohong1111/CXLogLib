@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CXLogLib_Example' do
+  pod 'CXLogLib', :path => '../'
+
+  target 'CXLogLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
