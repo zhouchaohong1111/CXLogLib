@@ -1,4 +1,5 @@
 use_frameworks!
+use_modular_headers!
 
 target 'CXLogLib_Example' do
   pod 'CXLogLib', :path => '../'
